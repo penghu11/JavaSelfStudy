@@ -14,6 +14,7 @@ public class PassObject {
         System.out.println("now radius is:" + c.radius);
     }
 
+
     public void printAreas(Circle c,int time){
 
         System.out.println("Radius\t\tAreas");  // \t 是制表符
