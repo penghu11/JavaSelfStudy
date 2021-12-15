@@ -2,6 +2,7 @@ package oop;
 
 import org.junit.Test;
 
+// 封装性知识点学习
 public class EncapsulationTest {
 
     @Test
@@ -34,7 +35,7 @@ class  Encapsulation {
     }
 
     public void setName(String nam){
-         // this.name = name;
+         // this.name = name;  如果方法的形参和类的属性同名，我们必须显式的使用"this.变量"的方式，表明此变量是属性，而非形参
          name = nam;
 
     }
